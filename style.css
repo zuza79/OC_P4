@@ -26,6 +26,16 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+.txt-citation{
+    text-align: center;
+    font-size: 15px;
+    line-height: 0.8;
+}
+.citation{
+    text-align: center;
+    font-size: 12px;
+
+}
 
 .bloc {
     width: 100%;
@@ -822,7 +832,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
