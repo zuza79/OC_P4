@@ -28,7 +28,7 @@ a:hover {
 }
 .txt-citation{
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 0.8;
 }
 .citation{
@@ -544,6 +544,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    
 }
 
 a[data-lightbox]:hover::before {
@@ -698,7 +699,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
-}
+    }
 
 .cta-hero {
     margin-top: 22px;
@@ -733,7 +734,7 @@ h2 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white!important;
 }
 
 h4 {
@@ -750,7 +751,11 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin-bottom: 24px;  
+}
+.img-responsive{
+    width: 100%;
+    height: auto;
 }
 
 .portfolio-row {
