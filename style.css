@@ -373,6 +373,9 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    .txt-citation{
+        font-size: 22px;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -783,9 +786,7 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
+
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -836,6 +837,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.webp");
+    
 }
 
 .bg-presentation {
@@ -847,6 +849,7 @@ h4 {
         padding-left: 20px;
         padding-right: 20px;
     }
+    
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -863,18 +866,22 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .txt-citation{
+        font-size: 22px;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
-}
+    }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
+    
 }
 
 @media (max-width: 991px) {
