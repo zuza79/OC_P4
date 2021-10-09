@@ -475,10 +475,15 @@ nav .caret {
 
 button {
     outline: none!important;
+    
+}
+.bloc-button{
+    background: #F3976C;
 }
 
 .btn-rd {
     border-radius: 40px;
+    background: #F3976C;
 }
 
 .btn-clean {
@@ -521,6 +526,8 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    color: black;
+    font-size: 16px;
 }
 
 .scrollToTop {
@@ -697,6 +704,8 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    font-size: large;
+    color: black!important;
 }
 
 .h1 {
@@ -706,16 +715,19 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+    
 }
 
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h3 {
@@ -786,20 +798,16 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
-
-
-
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
 .tc-white {
     color: black;
+    font-size: 600;
 }
-
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    
 }
 
 .btn-atomic-tangerine:hover {
