@@ -478,7 +478,7 @@ button {
     
 }
 .bloc-button{
-    background: #F3976C;
+    background: #c27956!important;
 }
 
 .btn-rd {
@@ -702,7 +702,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 620px;
     margin: auto auto auto auto;
     font-size: large;
     color: black!important;
@@ -807,6 +807,7 @@ h4 {
 }
 .btn-atomic-tangerine {
     background: #F3976C;
+    
     
 }
 
